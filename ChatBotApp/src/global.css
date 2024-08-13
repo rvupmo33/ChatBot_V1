@@ -1,7 +1,153 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap");
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   text-decoration: none;
   list-style-type: none;
+  font-family: "DM Sans", sans-serif;
+  line-height: 100%;
+}
+
+.Container {
+  height: 100vh;
+  width: 100vw;
+  background-color: #000000;
+  color: white;
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+
+.navContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 20px;
+  border-bottom: 1px solid #343434;
+}
+
+.navContainer h2 {
+  font-weight: 500;
+  font-size: 17px;
+}
+
+.navContainer img {
+  width: 35px;
+  border-radius: 50%;
+  cursor: pointer;
+  border: 1px solid #343434;
+}
+
+.brandName {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.container-bottom {
+  flex: 1;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.chatOuterContainer {
+  background-color: transparent;
+  border: 1px solid #343434;
+  border-radius: 20px;
+  width: 900px;
+  height: 500px;
+  margin: 0px 20px;
+  position: relative;
+}
+
+.chatInnerContainer {
+  padding: 20px;
+  overflow-y: scroll;
+  height: 430px;
+}
+
+.welcome,
+.gradient {
+  font-size: 100px;
+  text-align: left;
+  background: -webkit-linear-gradient(16deg, #4b90ff, #ff5546);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.gradient {
+  -webkit-text-fill-color: rgb(234, 233, 233);
+  margin-top: 20px;
+  margin-bottom: 40px;
+  font-size: 30px;
+}
+
+.searchbox {
+  width: 100%;
+  position: absolute;
+  bottom: 15px;
+  padding: 0px 20px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.searchbox input {
+  background-color: transparent;
+  border: 1px solid #676565;
+  border-radius: 500px;
+  outline: none;
+  width: 100%;
+  padding: 15px 20px;
+  color: white;
+}
+
+.searchbox .sendIcon {
+  cursor: pointer;
+}
+
+.exampleCard {
+  width: fit-content;
+  margin-top: 10px;
+  padding: 10px 20px;
+  background-color: transparent;
+  border: 1px solid #343434;
+  border-radius: 5px;
+  color: rgb(79, 79, 79);
+  font-size: 13px;
+}
+
+.exampleCard:hover {
+  background: -webkit-linear-gradient(16deg, #4b90ff, #ff5546);
+  cursor: default;
+  color: white;
+}
+
+.detailCard {
+  z-index: 100;
+  width: 450px;
+  height: 300px;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgba(28, 27, 27, 0.99);
+  border: 1px solid #343434;
+  border-radius: 20px;
+  padding: 20px;
+}
+
+.detailCard .top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.icon {
+  cursor: pointer;
 }

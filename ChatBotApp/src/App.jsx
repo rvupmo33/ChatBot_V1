@@ -1,10 +1,13 @@
+import Navbar from "./components/Navbar";
+import ChatBox from "./components/ChatBox";
 import "./global.css";
 
 function App() {
   return (
-    <>
-      <h1>Test1</h1>
-    </>
+    <div className="Container">
+      <Navbar />
+      <ChatBox />
+    </div>
   );
 }
 
