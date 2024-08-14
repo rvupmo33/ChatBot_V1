@@ -4,7 +4,7 @@ import { BotMessageSquare } from "lucide-react";
 import DetailCard from "./DetailCard";
 
 const Navbar = () => {
-  const [details, setDetails] = useState(true);
+  const [details, setDetails] = useState(false);
 
   const onClose = () => {
     setDetails(false);

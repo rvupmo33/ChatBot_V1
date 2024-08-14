@@ -68,6 +68,8 @@
 .chatInnerContainer {
   padding: 20px;
   overflow-y: scroll;
+  display: flex;
+  flex-direction: column-reverse;
   height: 430px;
 }
 
@@ -150,4 +152,72 @@
 
 .icon {
   cursor: pointer;
+}
+
+.chatContainer img {
+  width: 40px;
+  border: 1px solid #343434;
+  border-radius: 50%;
+}
+
+.userChatBox {
+  display: flex;
+  align-items: start;
+  justify-content: end;
+  gap: 10px;
+}
+
+.userChatBox p {
+  background-color: #161515;
+  padding: 10px 20px;
+  border-radius: 5px;
+  max-width: 80%;
+  margin-bottom: 20px;
+  line-height: 130%;
+}
+
+.botChatBox {
+  display: flex;
+  align-items: start;
+  gap: 10px;
+}
+
+.botChatBox p {
+  background: -webkit-linear-gradient(16deg, #171134, #150e34);
+  padding: 10px 20px;
+  border-radius: 5px;
+  max-width: 80%;
+  margin-bottom: 20px;
+  line-height: 150%;
+}
+
+.hrContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 90%;
+}
+
+.hrContainer hr {
+  width: 100%;
+  border: 3px solid #241e43;
+  border-radius: 5px;
+}
+
+.cardTextSec {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.cardTextSec a {
+  color: white;
+}
+
+.cardTextSec a:hover {
+  color: rgb(237, 173, 173);
+}
+
+.desc {
+  line-height: 150%;
 }
