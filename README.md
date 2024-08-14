@@ -12,6 +12,16 @@
 
 Happy Assistant is your go-to chatbot for learning more about **HappyHabits AI**. Whether you're interested in our mission, values, or key features, Happy Assistant is here to provide you with detailed and accurate information about our company.
 
+
+### Product Images
+
+<p align="center">
+  <img src="ChatBotApp/src/assets/ex-one.png" alt="Description of Image" width="90%" borderRadius="50px" />
+</p>
+<p align="center">
+  <img src="ChatBotApp/src/assets/ex-two.png" alt="Description of Image" width="90%" borderRadius="50px" />
+</p>
+
 ### Getting Started
 
 a. &nbsp;Clone the Repository and Navigate to the Project Directory:
