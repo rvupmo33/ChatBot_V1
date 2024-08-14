@@ -75,7 +75,7 @@
 
 .welcome,
 .gradient {
-  font-size: 100px;
+  font-size: 75px;
   text-align: left;
   background: -webkit-linear-gradient(16deg, #4b90ff, #ff5546);
   -webkit-background-clip: text;
